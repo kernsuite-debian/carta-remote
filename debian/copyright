@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: carta-remote
+Source: https://cartavis.github.io/
+
+Files:     debian/*
+Copyright: 2019 Gijs Molenaar <gijs@pythonic.nl>
+License:   apache2
+
+Files:     *
+Copyright: 2018-2019 ASIAA, IDIA, and NRAO
+License:   GPL3

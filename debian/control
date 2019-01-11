@@ -1,0 +1,18 @@
+Source: carta-remote
+Section: science
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://cartavis.github.io/
+
+Package: carta-remote
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Remote version of CARTA
+ Cube Analysis and Rendering Tool for Astronomy.
+ This version runs the CARTA 'backend' on the server, while the CARTA 'frontend'
+ is accessed through your web browser of choice running on your local machine.
+ This allows your local machine's GPU to perform the image rendering, while the
+ remote server handles the storage and CPU/RAM instensive tasks.

@@ -9,7 +9,7 @@ Homepage: https://cartavis.github.io/
 Package: carta-remote
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, python, iproute2
 Description: Remote version of CARTA
  Cube Analysis and Rendering Tool for Astronomy.
  This version runs the CARTA 'backend' on the server, while the CARTA 'frontend'

@@ -1,13 +1,8 @@
-20ed76a8e44015e30183.worker.js /opt/carta-remote
-asset-manifest.json /opt/carta-remote
-ast_wrapper.wasm /opt/carta-remote
-carta /opt/carta-remote
-carta-backend /opt/carta-remote
-carta_icon_128px.png /opt/carta-remote
-index.html /opt/carta-remote
-manifest.json /opt/carta-remote
-service-worker.js /opt/carta-remote
-static /opt/carta-remote
-zfp_wrapper.wasm /opt/carta-remote
 debian/run/carta-remote usr/bin
-
+*.wasm opt/carta-remote
+*.js opt/carta-remote
+carta opt/carta-remote
+carta-backend opt/carta-remote
+*.html opt/carta-remote
+static opt/carta-remote
+*.png opt/carta-remote
